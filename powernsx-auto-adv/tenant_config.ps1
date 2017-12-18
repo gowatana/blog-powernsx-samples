@@ -4,9 +4,9 @@
 # テナント固有 変数
 $tenant_id = $tenant_no.toString("000")
 $tenant_name = "tenant-" + $tenant_id
-$gw_addr = "10.1." + $tenant_no + ".1"
+$gw_addr = "10.1." + $tenant_no + ".254"
 $nw_addr = "10.1." + $tenant_no + ".0"
-$tenant_dns = "10.1." + $tenant_no + ".1"
+$tenant_dns = "10.1.1.1"
 $nw_msak_length = 24
 
 $dlr_if_name = "if-" + $tenant_name
